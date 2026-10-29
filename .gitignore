@@ -43,6 +43,7 @@ env/
 
 # Node (if any)
 node_modules/
+web/.next/
 
 # Logs
 *.log

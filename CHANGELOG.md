@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **JS SEO**, a page check in the JS Labs paper and ink theme. From `web/`, run `npm install` and `npm run dev`. It reads one public page through the existing parsers and refuses private addresses before it connects.
+
 ## [2.5.0] - 2026-10-22
 
 Security and accuracy fixes from a full audit, and Claude Desktop installs again.
