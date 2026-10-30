@@ -4,6 +4,22 @@
   26 sub-skills and 19 specialist agents. MIT licensed.
 -->
 
+# JS SEO
+
+A JS Labs page check, set in the paper and ink theme. Paste a public URL. It reads the HTML the server sends and lists what to fix first: title, description, indexing, copy, images, links and structured data.
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+Open http://localhost:3000. The check uses the Claude SEO parsers in this repository (MIT, Agrici Daniel). It does not run scripts in the browser, and it refuses private addresses before it connects. Nothing you submit is stored.
+
+The rest of this repository is that analysis engine, including the agent skills.
+
+---
+
 <img src="assets/readme/v3/hero.svg" width="1200" height="420" alt="Claude SEO: rank in Google, get cited by AI. Three bots climb from #48 to #1 by fixing crawl, speed, schema, AI access and authority, then Google, ChatGPT, Perplexity, Gemini and Claude cite the site." />
 
 <h1 align="center">Claude SEO</h1>
